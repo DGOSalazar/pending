@@ -8,7 +8,11 @@
 
 ---
 
-* ✨ *Benefit: Enables early QA testing and improves maintainability*
+### 1️⃣ One PR, One Clear Purpose
+> **"Make each PR tell a single story"**
+* Break work into focused tickets:
+
+* * ✨ *Benefit: Enables early QA testing and improves maintainability*
 
 ---
 
@@ -62,6 +66,16 @@
 
 <div align="center">
 
+## 💡 Pro Tips
+
+| Before PR | During Review | After Approval |
+|:---:|:---:|:---:|
+| Run all tests | Respond promptly | Update docs |
+| Clear description | Be open to feedback | Clean commit history |
+| Add screenshots | Tag relevant people | Double-check changes |
+
+</div>
+
 ---
 
 <div align="center">
@@ -94,15 +108,5 @@
 * Visibility drives success
 
 *Building great software, one PR at a time* ✨
-
-</div>
-
-## 💡 Pro Tips
-
-| Before PR | During Review | After Approval |
-|:---:|:---:|:---:|
-| Run all tests | Respond promptly | Update docs |
-| Clear description | Be open to feedback | Clean commit history |
-| Add screenshots | Tag relevant people | Double-check changes |
 
 </div>
