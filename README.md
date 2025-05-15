@@ -1,61 +1,87 @@
-✅ Pull Request & Code Review Guidelines
-🧑‍💻 1. Always tag a senior developer
-Tag someone from Realtor.com who is either the code owner or very familiar with the impacted area.
+<div align="center">
 
-This ensures better code context and review quality.
+# 🎯 PR Workflow & Code Review Checklist
 
-🧪 2. Open the PR after QE sign-off (if applicable)
-If there’s a lot of changes in the PR during review, ask QE to test again before merging.
+*A guide to creating excellent Pull Requests*
 
-🧠 3. Reviewers ≠ Speed
-The number of reviewers should match the complexity of the feature.
+</div>
 
-Don’t minimize the list just to get faster approvals.
+---
 
-🛠️ 4. Resolve all comments
-You must address feedback from every reviewer.
+## 📋 Core Principles
 
-Even if other reviewers approved the PR, unaddressed comments must still be resolved.
+### 1️⃣ One PR, One Clear Purpose
+> **"Make each PR tell a single story"**
+* Break work into focused tickets:
 
-🤝 5. Too many comments? Pair up!
-If one reviewer leaves several comments, consider scheduling a quick meeting or doing a pair review to clarify and move faster.
+* ✨ *Benefit: Enables early QA testing and improves maintainability*
 
-🔁 6. Involve other teams when needed
-If your feature impacts another team, schedule a pair review with them before opening the PR.
+---
 
-This avoids surprises and makes the formal review smoother.
+### 2️⃣ Cross-Team Collaboration
+> **"Build bridges before crossing them"**
+* 🤝 Conduct pair reviews for cross-team impacts
+* 🚀 Speed up official review process
+* 🔄 Prevent unnecessary rework
 
-💡 7. Add comments for tricky code
-If your code is not immediately obvious, add inline comments to explain the logic.
+---
 
-If the explanation is too long, you probably need to revisit or simplify the code.
+### 3️⃣ Communication is Key
+> **"When in doubt, talk it out"**
+* 💬 Many comments? Schedule a quick pairing session
+* ⏱️ Save time through direct communication
+* 🤔 Prevent misunderstandings early
 
-Example:
+---
 
-kotlin
-Copiar
-Editar
-// We store this flag here to persist user state across sessions.
-🚫 8. Avoid persistent variables (unless necessary)
-Keep the code stateless unless persistence is truly required.
+### 4️⃣ Quality First
+> **"Every comment matters"**
+* ✅ Address all review comments
+* 💪 Maintain high standards
+* 🌟 Value thoroughness over speed
 
-🔄 9. One PR = One Purpose
-Organize work into focused, incremental tickets and PRs. This helps QA test earlier and improves maintainability.
+---
 
-Example structure for a new feature:
+### 5️⃣ Review Depth
+> **"More eyes = Better code"**
+* 🧠 Match reviewers to PR complexity
+* 🔍 Seek diverse perspectives
+* 📈 Focus on quality over speed
 
-📦 Ticket #1: Create module structure
+---
 
-📁 Ticket #2: Set up packages and base classes
+### 6️⃣ QA Partnership
+> **"Test early, test often"**
+* 🧪 Get QA approval before PR
+* 🔄 Re-test after significant changes
+* 🎯 Ensure consistent quality
 
-🧩 Ticket #3: Build each component (e.g. form field, button)
+---
 
-🔡 Ticket #4: Add input logic for each field (e.g. Name input with validation)
+### 7️⃣ Senior Oversight
+> **"Leverage experience"**
+* 👨‍💻 Always include a senior developer
+* 💡 Gain valuable insights
+* 📚 Ensure knowledge sharing
 
-This way, QE can test each part of the feature independently.
+---
 
-📆 10. PR still open by Thursday?
-No pressure — move it to the next sprint.
+<div align="center">
 
-If you spent time on discovery or research, create spike tickets to document and make the effort visible.
+## 💡 Pro Tips
 
+| Before PR | During Review | After Approval |
+|:---:|:---:|:---:|
+| Run all tests | Respond promptly | Update docs |
+| Clear description | Be open to feedback | Clean commit history |
+| Add screenshots | Tag relevant people | Double-check changes |
+
+</div>
+
+---
+
+<div align="center">
+
+*Remember: Great PRs lead to great software* 🌟
+
+</div>
