@@ -8,12 +8,6 @@
 
 ---
 
-## 📋 Core Principles
-
-### 1️⃣ One PR, One Clear Purpose
-> **"Make each PR tell a single story"**
-* Break work into focused tickets:
-
 * ✨ *Benefit: Enables early QA testing and improves maintainability*
 
 ---
@@ -82,6 +76,33 @@
 
 <div align="center">
 
-*Remember: Great PRs lead to great software* 🌟
+## 🌟 Sprint Management Best Practices
+
+</div>
+
+### 📅 Timeline Management
+> **"Plan for success, prepare for delays"**
+* 🕒 PRs pending approval by Thursday morning? 
+  * Stay calm
+  * Move to next sprint
+  * Communicate with stakeholders
+* 📊 Track progress consistently
+
+### 🔍 Research Visibility
+> **"Make discovery work count"**
+* 📝 Create spike tickets for research work
+* 🔬 Document discoveries and findings
+* 📈 Keep sprint visibility high
+
+---
+
+<div align="center">
+
+### 🎯 Remember
+* Quality code takes time
+* Communication is crucial
+* Visibility drives success
+
+*Building great software, one PR at a time* ✨
 
 </div>
